@@ -29,7 +29,7 @@ function calculaTesteJejum(){
 
     if(glicemiaJejum >= 101 && glicemiaJejum <=130){
         result.innerHTML = `<p>Atenção, o resultado do seu exame pode ser indicativo de pré-diabetes. 
-        O intervalo normal é entre 70 e 100 mg/dl</p>
+        O intervalo normal é entre 70 e 100 mg/dl.</p>
         
         <br>
 
