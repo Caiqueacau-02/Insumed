@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>INSUMED</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+		crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+<body>
+	<header>
+		<div class="menu-bg">
+			<div class="menu">
+				<div class="menu__logo">
+					<a href="index.html"><img src="" alt="logo"></a>
+				</div> <!--menu__logo-->
+				<nav class="nav">
+					<ul class="nav__list">
+						<li><a href="index.html" class="nav__link">Calcule as Doses de Insulina</a></li>
+						<li><a href="testes.html" class="nav__link">Testes</a></li>
+						<li><a href="dicas.html" class="nav__link">Dicas</a></li>
+						<li><a href="formulario.html" class="nav__link">Formulário</a></li>
+					</ul> <!--nav__list -->
+				</nav> <!--nav-->
+			</div><!-- .menu-->
+		</div> <!-- .menu-bg-->
+
+		<h1 class="intro">INSUMED: <br/> UM APP PRA CALCULAR SUA INSULINA</h1>
+	</header>
+	<hr>
+
+	<section class="calculadora-doses">
+		<h2 class="section__titulo">Calcule as Doses de Insulina</h2>
+		<p class="calculadora-texto">Realizar o correto cálculo de insulina garante mais qualidade de vida, saúde e estabilidade,
+			previnindo-o de hiperglicemias e de hipoglicemias, eventos que são realmente perigosos para a vida e o bem-estar 
+			geral de uma pessoa com diabetes</p>
+		<div class="calculadora-doses-c">
+			<div class="calculadora-doses-c__texto">
+				<label>Digite a quantidade de Frasco</label>
+				
+				<input type="text" value="" class="input1">
+				<label>Digite a prescrição do médico referente as unidades de insulina</label>
+				
+				<input type="text" value="" class="input2">
+
+				<input type="button" class="button__insulina" value="Calcular" onclick="calculaInsulina()"> 
+
+				<div class="result_calculadora"></div>
+			</div><!--.calculadora-doses-c__texto-->
+		</div><!--.calculadora-doses-c-->
+	</section><!--.calculadora-doses-->
+
+	<footer class="footer">
+		<p class="footer__copyright"> © Feito por INSUMED
+		</p>
+		<a href="index.html">
+			<img src="" alt="INSUMED" class="footer__logo">
+		</a>
+	</footer><!--footer-->
+</body>
+	<script src="script.js"></script>
+</html>
