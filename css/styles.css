@@ -96,6 +96,8 @@ img{
 
 .menu__logo{
 	margin: 10px;
+	width: 80px;
+	height: 80px;
 }
 
 .nav__list{
@@ -280,11 +282,16 @@ select{
 
 label{
 	font-family: 'Poppins', sans-serif;
+
 }
 
 input{
 	margin-bottom: 1rem;
 
+}
+
+.testes{
+	margin-left: 1rem;
 }
 
 .button__formulario{
@@ -293,8 +300,13 @@ input{
 	cursor: pointer;
 }
 
+.glicemia-capilar{
+	margin-left: 1rem;
+}
 
-
+.glicemia-jejum{
+	margin-left: 1rem;
+}
 
 /**********************************/
 /* 8. Newsletter
@@ -369,10 +381,16 @@ input{
 	padding: 55px calc((100% - 960px) / 2);
 }
 
-.footer__copyright, .footer__logo{
+.footer__copyright{
 	padding-left: 10px;
 	padding-right: 10px;
 	font-family: 'Poppins', sans-serif;
+	
+}
+
+.footer__logo{
+	width: 80px;
+	height: 80px;
 }
 
 /*responsividade*/
@@ -407,5 +425,11 @@ input{
 		border-radius: .5rem;
 		cursor: pointer;
 		margin-left: 2rem;
+	}
+
+	.footer__logo{
+		width: 80px;
+		height: 80px;
+		margin-right: 1rem;
 	}
 }
