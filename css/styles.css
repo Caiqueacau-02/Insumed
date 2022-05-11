@@ -206,8 +206,9 @@ img{
 
 
 .button{
-	margin: 0px;
-	max-width: 100px;
+	margin: 15px;
+	max-width: 150px;
+	max-height: 25px;
 	border-radius: .5rem;
 	cursor: pointer;
 	border: none;
@@ -288,6 +289,15 @@ img{
 	height: 130px;
 	width: 230px;
 }
+
+.img__clinicas-flex:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
+
+.img__clinicas:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
+
+.img__clinicas-notre:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
 /**********************************/
 /* 7. Formulário
 /**********************************/
@@ -325,6 +335,10 @@ label{
 input{
 	margin-bottom: 1rem;
 
+}
+
+.input__form{
+	width: 20rem;
 }
 
 .testes__label{
@@ -443,8 +457,21 @@ input{
 	
 	.button__insulina{
 		padding: 0 2rem;
+		text-align: center;
 		border-radius: .5rem;
 		cursor: pointer;
+		width: 150px;
+		height: 25px;
+	}
+
+	.button{
+		width: 500px;
+		height: 25px;	
+	}
+
+	.button__formulario{
+		width: 150px;
+		height: 25px;	
 	}
 
 	.calculadora-doses-c__texto{
@@ -473,4 +500,6 @@ input{
 	.exame{
 		margin-bottom: 1.2rem;
 	}
+
+
 }
