@@ -129,11 +129,6 @@ img{
 	margin: 0 auto;
 }
 
-.calculadora-doses-c{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-}
 
 .calculadora-texto{
 	text-align: center;
@@ -144,6 +139,9 @@ img{
 .calculadora-doses-c__texto{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
 }
 
 .input1{
@@ -157,15 +155,19 @@ img{
 }
 
 .button__insulina{
-	max-width: 200px;
+	padding: 0 2rem;
 	border-radius: .5rem;
 	cursor: pointer;
+	border: none;
+	margin-top: 30px;
+	background: linear-gradient(126deg, rgba(255,161,215,1) 47%, rgba(209,45,253,0.6727065826338532) 100%);
+	padding: 0 2rem;
+	height: 1.4rem;
 }
 
 .result_calculadora{
 	background-color: white;
 }
-
 
 
 /**********************************/
@@ -195,18 +197,23 @@ img{
 .glicemia-jejum{
 	max-width: 100px;
 	
+	
 }
 
 .glicemia-capilar{
 	max-width: 100px;
-	
 }
 
 
 .button{
-	max-width: 200px;
+	margin: 0px;
+	max-width: 100px;
 	border-radius: .5rem;
 	cursor: pointer;
+	border: none;
+	margin-top: 30px;
+	background: linear-gradient(126deg, rgba(255,161,215,1) 47%, rgba(209,45,253,0.6727065826338532) 100%);
+	
 }
 
 .testes-c__titulos{
@@ -252,6 +259,35 @@ img{
 	color: rgba(0, 0, 0, 0.822);
 }
 
+.clinicas-container{
+	display: flex;
+	max-width: 960px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.exame{
+	text-align: center;
+}
+
+.clinicas__textos{
+	margin-top: 1rem;
+}
+
+.img__clinicas{
+	width: 250px;
+}
+
+.img__clinicas-flex{
+	width: 230px;
+}
+
+.img__clinicas-notre{
+	height: 130px;
+	width: 230px;
+}
 /**********************************/
 /* 7. Formulário
 /**********************************/
@@ -272,7 +308,8 @@ img{
 .formulario-c__form{
 	display: flex;
 	flex-direction: column;
-	margin-left: 4rem;
+	align-items: center;
+	text-align: center;
 }
 
 select{
@@ -296,8 +333,14 @@ input{
 
 .button__formulario{
 	max-width: 200px;
-	border-radius: .5rem;
+	border-radius: 5px;
 	cursor: pointer;
+	border: none;
+	margin-top: 30px;
+	background: linear-gradient(126deg, rgba(255,161,215,1) 47%, rgba(209,45,253,0.6727065826338532) 100%);
+	padding: 0 2rem;
+	height: 1.4rem;
+
 }
 
 .glicemia-capilar{
@@ -395,41 +438,39 @@ input{
 
 /*responsividade*/
 
-@media screen and (max-width: 500px) {
-	.input1{
-		max-width: 200px;
-		margin-left: 6rem;
-	}
+@media screen and (max-width: 600px) {
 	
-	.input2{
-		max-width: 200px;
-		margin-left: 6rem;
-	}
 	
 	.button__insulina{
-		margin-left: 6rem;
-		max-width: 200px;
+		padding: 0 2rem;
 		border-radius: .5rem;
 		cursor: pointer;
 	}
 
-	.calculadora-doses-c{
+	.calculadora-doses-c__texto{
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
 		text-align: center;
 	}
 
-	.button__formulario{
-		max-width: 200px;
-		border-radius: .5rem;
-		cursor: pointer;
-		margin-left: 2rem;
-	}
-
 	.footer__logo{
 		width: 80px;
 		height: 80px;
 		margin-right: 1rem;
+	}
+
+	.clinicas-container{
+		display: flex;
+		max-width: 960px;
+		margin: 0 auto;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-top: 1.5rem;
+
+	}
+
+	.exame{
+		margin-bottom: 1.2rem;
 	}
 }
