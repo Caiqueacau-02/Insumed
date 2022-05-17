@@ -103,6 +103,7 @@ img{
 .nav__list{
 	display: flex;
 	flex-wrap: wrap;
+	text-decoration: underline;
 }
 
 .nav__link{
@@ -144,6 +145,17 @@ img{
 
 }
 
+#container{
+	text-align: center;
+}
+
+#btn{
+    border: none;
+	cursor: pointer;
+	background-color: var(--clr-white);
+	text-decoration: underline;
+}
+
 .input1{
 	max-width: 200px;
 	
@@ -169,6 +181,10 @@ img{
 	background-color: white;
 }
 
+.vakinha{
+	text-align: center;
+	margin-bottom: 1rem;
+}
 
 /**********************************/
 /* 5. Testes
@@ -265,38 +281,67 @@ img{
 	max-width: 960px;
 	margin: 0 auto;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-top: 1.5rem;
 }
 
 .exame{
 	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
 
 .clinicas__textos{
 	margin-top: 1rem;
 }
 
-.img__clinicas{
+.img__1{
 	width: 250px;
+	height: 180px;
 }
 
-.img__clinicas-flex{
+.img__2{
 	width: 230px;
+	height: 180px;
+	
 }
 
-.img__clinicas-notre{
-	height: 130px;
+.img__3{
+	height: 180px;
+	width: 260px;
+}
+
+.img__4{
 	width: 230px;
+	height: 180px;
 }
 
-.img__clinicas-flex:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+.img__5{
+	width: 230px;
+	height: 180px;
+}
+
+.img__6{
+	width: 230px;
+	height: 180px;
+}
+
+.img__1:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
 	transition: all .2s ease-in-out}
 
-.img__clinicas:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+.img__2:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
 	transition: all .2s ease-in-out}
 
-.img__clinicas-notre:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+.img__3:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
+
+.img__4:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
+
+.img__5:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
+	transition: all .2s ease-in-out}
+	
+.img__6:hover{top:-4px;box-shadow:0 4px 4px #999; cursor: pointer;
 	transition: all .2s ease-in-out}
 /**********************************/
 /* 7. Formulário

@@ -50,7 +50,10 @@ function calculaTesteJejum(){
         result.innerHTML = `<p>Atenção, seu nível de glicose no sangue está alto, o que pode ser sinal de diabetes.
          O intervalo normal é entre 70 e 100 mg/dl.</p>
          <br>
-
+         <p>Procure um Médico especialista para tratamento</p>
+         <br>
+         <p><a href="dicas.html#clinicas-parceiras" style="color:blue; text-decoration: underline;">Clicando aqui</a></p>
+        <br>
          <p>A diabetes é uma doença crônica em que há altos níveis de açúcar (glicose) no sangue, o que pode interferir no 
          funcionamento do corpo e causar sintomas como sede excessiva, boca seca, aumento da fome e vontade frequente para urinar. 
          Além disso, quando não é devidamente tratada, há maior risco de doenças cardiovasculares, surdez, pé diabético e alterações 
@@ -89,6 +92,10 @@ function calculaTesteCapilar(){
         result1.innerHTML = `<p>Atenção, seu nível de glicose no sangue está alto, o que pode ser sinal de diabetes. 
         O resultado normal é abaixo de 200 mg/dl.</p>
         <br>
+        <p>Procure um Médico especialista para tratamento</p>
+        <br>
+        <p><a href="dicas.html#clinicas-parceiras" style="color:blue; text-decoration: underline;">Clicando aqui</a></p>
+        <br>
         <p>A diabetes é uma doença crônica em que há altos níveis de açúcar (glicose) no sangue, o que pode interferir no 
         funcionamento do corpo e causar sintomas como sede excessiva, boca seca, aumento da fome e vontade frequente para urinar. 
         Além disso, quando não é devidamente tratada, há maior risco de doenças cardiovasculares, surdez, pé diabético e alterações 
@@ -100,3 +107,19 @@ function calculaTesteCapilar(){
         `
     }
 }
+
+//esconde e mostra a div
+
+var btn = document.querySelector("#btn");
+
+btn.addEventListener("click", function() {
+
+    var div = document.querySelector("#container");
+    
+  if(div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+  	div.style.display = "none";
+  }
+    
+});
