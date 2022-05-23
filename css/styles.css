@@ -158,11 +158,15 @@ img{
 
 .input1{
 	max-width: 200px;
+	border-radius: 5px;
+	border: solid 1px;
 	
 }
 
 .input2{
 	max-width: 200px;
+	border-radius: 5px;
+	border: solid 1px;
 	
 }
 
@@ -379,11 +383,15 @@ label{
 
 input{
 	margin-bottom: 1rem;
+	border-radius: 5px;
+	border: solid 1px;
 
 }
 
 .input__form{
 	width: 20rem;
+	border-radius: 5px;
+	border: solid 1px;
 }
 
 .testes__label{
